@@ -58,6 +58,18 @@ Notebooks del libro: https://github.com/jakevdp/PythonDataScienceHandbook
 - [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/)
 - [Microsoft Research Open Data](https://www.microsoft.com/en-us/research/tools/?facet%5Btax%5D%5Bproduct_type%5D%5B%5D=dataset)
 
+## Licencia
+
+El repositorio mezcla material de distinta procedencia, así que la licencia se separa en tres casos.
+
+**Código.** Los notebooks y cualquier script se distribuyen bajo la [licencia MIT](LICENSE).
+
+**Contenido instruccional.** El texto de las diapositivas y de los notebooks se distribuye bajo [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es): puedes usarlo, adaptarlo y redistribuirlo, incluso con fines comerciales, siempre que des crédito.
+
+**Material de terceros.** Las presentaciones incluyen figuras, gráficas, capturas y logotipos cuyos derechos pertenecen a sus autores. Ese material queda fuera de las licencias anteriores y se reproduce aquí con fines educativos, citando la fuente en la diapositiva correspondiente. Si vas a reutilizar una diapositiva completa, revisa qué contiene.
+
+Los conjuntos de datos conservan sus propias condiciones; cada uno se documenta en [`datos/`](datos/).
+
 ## Contacto
 
 Instructores:
