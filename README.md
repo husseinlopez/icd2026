@@ -60,4 +60,7 @@ Notebooks del libro: https://github.com/jakevdp/PythonDataScienceHandbook
 
 ## Contacto
 
-hussein@cicese.edu.mx
+Instructores:
+hussein@cicese.edu.mx, jraygoza@cicese.edu.mx 
+Ayudante:
+jnavarrete@cicese.edu.mx 
