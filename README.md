@@ -20,6 +20,7 @@ Este repositorio reúne las diapositivas y los notebooks del curso. Se actualiza
 |---|---|---|---|
 | 1 | Presentación del curso · La ciencia de datos | [PDF](clases/icd-01-intro.pdf) | — |
 | 2 | Datos | [PDF](clases/icd-02-datos.pdf) | [icd-02-datos.ipynb](icd-02-datos.ipynb) |
+| 3 | Representación | [PDF](clases/icd-03-representacion.pdf) | [icd-03-representacion.ipynb](icd-03-representacion.ipynb) |
 
 ## Cómo trabajar con los notebooks
 
@@ -49,7 +50,7 @@ Las lecturas, tareas y prácticas son obligatorias y deben entregarse en tiempo 
 ## Libro del curso
 
 VanderPlas, J. (2022). *Python Data Science Handbook*, 2a edición. O'Reilly.  
-Disponible en línea: https://jakevdp.github.io/PythonDataScienceHandbook/
+Disponible en línea: https://jakevdp.github.io/PythonDataScienceHandbook/  
 Notebooks del libro: https://github.com/jakevdp/PythonDataScienceHandbook
 
 ## Repositorios de datos
@@ -72,7 +73,5 @@ Los conjuntos de datos conservan sus propias condiciones; cada uno se documenta 
 
 ## Contacto
 
-Instructores:
-hussein@cicese.edu.mx, jraygoza@cicese.edu.mx 
-Ayudante:
-jnavarrete@cicese.edu.mx 
+Instructores: hussein@cicese.edu.mx · jraygoza@cicese.edu.mx  
+Ayudante: jnavarrete@cicese.edu.mx
