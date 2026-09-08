@@ -1,0 +1,13 @@
+id,nombre,sexo,edad,grupo,dispositivo,fecha_registro,fc_reposo
+P01,Ana Rivera,F,34,medio,Empatica E4,22-01-2019 15:00,68
+P02,Luis Ortega,M,41,alto,Empatica E4,22-01-2019 15:20,72
+P03,Marta Ruiz,Femenino,29,bajo,Actigraph GT3X,05-02-2019 09:10,61
+P04,Diego Salas,m,55,medio,Actigraph GT3X,05-02-2019 09:35,77
+P05,Sofía Nava,f,23,alto,Empatica E4,11-03-2019 11:00,
+P06,Iván Castro,Masculino,38,bajo,Fitbit Charge,11-03-2019 11:25,70
+P07,Elena Vidal,F,47,medio,Fitbit Charge,03-04-2019 16:05,74
+P08,Hugo Bravo,M,31,alto,Empatica E4,03-04-2019 16:30,65
+P09,Nadia Franco,Femenino,26,bajo,Actigraph GT3X,17-05-2019 08:45,63
+P10,Tomás Peña,M,62,medio,Actigraph GT3X,17-05-2019 09:10,80
+P11,Clara Mota,f,,alto,Empatica E4,28-06-2019 13:15,69
+P12,Raúl Ibarra,Masculino,44,bajo,Fitbit Charge,28-06-2019 13:40,71
