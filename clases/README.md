@@ -7,5 +7,6 @@ Presentaciones de cada sesión, en PDF. El nombre sigue el patrón `icd-NN-tema.
 | 1 | 1 sep | Presentación del curso · 1.1 La ciencia de datos | [icd-01-intro.pdf](icd-01-intro.pdf) |
 | 2 | 3 sep | 1.2 Datos | [icd-02-datos.pdf](icd-02-datos.pdf) |
 | 3 | 8 sep | 1.3 Representación | [icd-03-representacion.pdf](icd-03-representacion.pdf) |
+| 4 | 10 sep | 1.4 Visualización | [icd-04-visualizacion.pdf](icd-04-visualizacion.pdf) |
 
 Los notebooks que acompañan a algunas sesiones están en la raíz del repositorio.
