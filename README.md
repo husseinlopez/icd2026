@@ -21,6 +21,7 @@ Este repositorio reúne las diapositivas y los notebooks del curso. Se actualiza
 | 1 | Presentación del curso · La ciencia de datos | [PDF](clases/icd-01-intro.pdf) | — |
 | 2 | Datos | [PDF](clases/icd-02-datos.pdf) | [icd-02-datos.ipynb](icd-02-datos.ipynb) |
 | 3 | Representación | [PDF](clases/icd-03-representacion.pdf) | [icd-03-representacion.ipynb](icd-03-representacion.ipynb) |
+| 4 | Visualización | [PDF](clases/icd-04-visualizacion.pdf) | [icd-04-visualizacion.ipynb](icd-04-visualizacion.ipynb) |
 
 ## Cómo trabajar con los notebooks
 
