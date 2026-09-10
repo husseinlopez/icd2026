@@ -58,3 +58,39 @@ Contienen defectos deliberados: cada uno ilustra un punto de la sesión y se cor
 Los identificadores no coinciden entre las dos tablas: P11 y P12 no tienen mediciones, y P13 tiene mediciones pero no ficha de registro. Es a propósito, para que el argumento `how` de `merge` tenga consecuencias visibles.
 
 Se usan en: [icd-03-representacion.ipynb](../icd-03-representacion.ipynb)
+
+### cafe-calidad.csv
+
+1339 instancias, 43 atributos. Cada fila es un lote de café verde evaluado por catadores certificados.
+
+El notebook trabaja con 21 columnas; las 22 restantes son administrativas —número de lote, dirección y contacto de la certificadora, fechas de expiración— y no aportan al análisis. La tabla describe solo las que se usan.
+
+| Columna | Escala de medición | Valores |
+|---|---|---|
+| total_cup_points | Intervalo (0 a 100) | 59.83 a 90.58, más un registro en 0; es la suma de las diez subescalas |
+| species | Nominal binaria | Arabica (1311), Robusta (28) |
+| country_of_origin | Nominal | 36 niveles; 1 sin dato |
+| harvest_year | Intervalo (año), almacenado como texto | 46 valores distintos en formatos mezclados: `2012`, `2013/2014`, `2017 / 2018`, `4T/10`, `March 2010`, `Fall 2009`, `mmm`, `TEST`; 47 sin dato |
+| variety | Nominal | 29 niveles; 226 sin dato |
+| processing_method | Nominal | Washed / Wet, Natural / Dry, Pulped natural / honey, Semi-washed / Semi-pulped, Other; 170 sin dato |
+| color | Nominal | Green, Bluish-Green, Blue-Green — los dos últimos son la misma categoría escrita de dos formas; 270 sin dato |
+| aroma, flavor, aftertaste, acidity, body, balance | Intervalo (0 a 10) | 5.08 a 8.83 |
+| uniformity, clean_cup, sweetness | Intervalo (0 a 10) | Saturadas contra el máximo: mediana 10 en las tres |
+| cupper_points | Intervalo (0 a 10) | 5.17 a 10 |
+| moisture | Razón (fracción) | 0 a 0.28; 264 registros en 0 |
+| category_one_defects | Razón (conteo) | 0 a 63 |
+| category_two_defects | Razón (conteo) | 0 a 55 |
+| altitude_mean_meters | Razón (m) | 1 a 190 164; 230 sin dato |
+
+A diferencia de los datos de sensores, este conjunto **no fue ensuciado**: viene tal cual de su fuente, con los defectos que ya traía. Se eligió justamente por eso. Contiene los cuatro tipos de imperfección que un análisis exploratorio real tiene que enfrentar, y ninguno fue puesto a propósito:
+
+- **Faltantes con patrón no aleatorio.** La altitud falta en el 14% de los lotes de Guatemala y en el 97% de los de Hawái.
+- **Valores imposibles.** Un lote con cero en las diez subescalas, y 264 lotes con humedad exactamente 0.
+- **Valores fuera de rango.** Altitudes de hasta 190 164 metros, veintiún veces la altura del Everest.
+- **Codificación inconsistente.** `Bluish-Green` y `Blue-Green` como niveles separados, y cinco formatos de año de cosecha conviviendo en la misma columna.
+
+Recopilado por el Coffee Quality Institute y extraído por James LeDoux en [jldbc/coffee-quality-database](https://github.com/jldbc/coffee-quality-database). La versión aquí incluida es la redistribuida por [TidyTuesday](https://github.com/rfordatascience/tidytuesday/tree/master/data/2020/2020-07-07) el 7 de julio de 2020. Cubre cosechas de 2009 a 2018.
+
+El repositorio de origen no declara licencia explícita. Uso académico citando la fuente; cualquier otro uso requiere verificar los términos con el CQI. El archivo se renombró respecto de la fuente (`coffee_ratings.csv`) para seguir la convención del repositorio; su contenido no fue modificado.
+
+Se usa en: [icd-04-visualizacion.ipynb](../icd-04-visualizacion.ipynb)
