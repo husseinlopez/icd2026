@@ -8,5 +8,6 @@ Presentaciones de cada sesión, en PDF. El nombre sigue el patrón `icd-NN-tema.
 | 2 | 3 sep | 1.2 Datos | [icd-02-datos.pdf](icd-02-datos.pdf) |
 | 3 | 8 sep | 1.3 Representación | [icd-03-representacion.pdf](icd-03-representacion.pdf) |
 | 4 | 10 sep | 1.4 Visualización | [icd-04-visualizacion.pdf](icd-04-visualizacion.pdf) |
+| 5 | 15 sep | 2.1 Limpieza | [icd-05-limpieza.pdf](icd-05-limpieza.pdf) |
 
 Los notebooks que acompañan a algunas sesiones están en la raíz del repositorio.
