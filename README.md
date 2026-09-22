@@ -24,6 +24,7 @@ Este repositorio reúne las diapositivas y los notebooks del curso. Se actualiza
 | 4 | Visualización | [PDF](clases/icd-04-visualizacion.pdf) | [icd-04-visualizacion.ipynb](icd-04-visualizacion.ipynb) |
 | 5 | Limpieza | [PDF](clases/icd-05-limpieza.pdf) | [icd-05-limpieza.ipynb](icd-05-limpieza.ipynb) |
 | 6 | Aumento de datos | [PDF](clases/icd-06-aumento.pdf) | [icd-06-aumento.ipynb](icd-06-aumento.ipynb) |
+| 7 | Ingeniería de características | [PDF](clases/icd-07-ingenieria.pdf) | [icd-07-ingenieria.ipynb](icd-07-ingenieria.ipynb) |
 
 ## Cómo trabajar con los notebooks
 
