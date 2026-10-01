@@ -13,5 +13,6 @@ Presentaciones de cada sesión, en PDF. El nombre sigue el patrón `icd-NN-tema.
 | 7 | 22 sep | 2.3 Ingeniería de características | [icd-07-ingenieria.pdf](icd-07-ingenieria.pdf) |
 | 8 | 24 sep | 2.4 Reducción de dimensionalidad | [icd-08-reduccion.pdf](icd-08-reduccion.pdf) |
 | 9 | 29 sep | 2.5 Selección de características | [icd-09-seleccion.pdf](icd-09-seleccion.pdf) |
+| 10 | 1 oct | 3.1 Regresión lineal | [icd-10-regresion.pdf](icd-10-regresion.pdf) |
 
 Los notebooks que acompañan a algunas sesiones están en la raíz del repositorio.
