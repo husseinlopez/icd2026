@@ -27,6 +27,7 @@ Este repositorio reúne las diapositivas y los notebooks del curso. Se actualiza
 | 7 | Ingeniería de características | [PDF](clases/icd-07-ingenieria.pdf) | [icd-07-ingenieria.ipynb](icd-07-ingenieria.ipynb) |
 | 8 | Reducción de dimensionalidad | [PDF](clases/icd-08-reduccion.pdf) | [icd-08-reduccion.ipynb](icd-08-reduccion.ipynb) |
 | 9 | Selección de características | [PDF](clases/icd-09-seleccion.pdf) | [icd-09-seleccion.ipynb](icd-09-seleccion.ipynb) |
+| 10 | Regresión lineal | [PDF](clases/icd-10-regresion.pdf) | [icd-10-regresion.ipynb](icd-10-regresion.ipynb) |
 
 ## Cómo trabajar con los notebooks
 
