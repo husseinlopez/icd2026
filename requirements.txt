@@ -2,3 +2,11 @@ jupyterlab
 numpy
 pandas
 matplotlib
+seaborn
+scipy
+pillow
+scikit-image
+librosa
+umap-learn
+scikit-learn
+statsmodels
