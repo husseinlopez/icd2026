@@ -29,6 +29,7 @@ Quinlan, J. R. (1986). Induction of decision trees. *Machine Learning*, 1(1), 81
 
 Se usa en: [icd-02-datos.ipynb](../icd-02-datos.ipynb)
 
+
 ### sensores-participantes.csv · sensores-mediciones.csv
 
 Dos tablas de un estudio ficticio de sensado con dispositivos vestibles, generadas para la sesión 3. **No corresponden a ningún estudio real y no deben usarse fuera del curso.**
@@ -58,6 +59,7 @@ Contienen defectos deliberados: cada uno ilustra un punto de la sesión y se cor
 Los identificadores no coinciden entre las dos tablas: P11 y P12 no tienen mediciones, y P13 tiene mediciones pero no ficha de registro. Es a propósito, para que el argumento `how` de `merge` tenga consecuencias visibles.
 
 Se usan en: [icd-03-representacion.ipynb](../icd-03-representacion.ipynb)
+
 
 ### cafe-calidad.csv
 
@@ -94,3 +96,35 @@ Recopilado por el Coffee Quality Institute y extraído por James LeDoux en [jldb
 El repositorio de origen no declara licencia explícita. Uso académico citando la fuente; cualquier otro uso requiere verificar los términos con el CQI. El archivo se renombró respecto de la fuente (`coffee_ratings.csv`) para seguir la convención del repositorio; su contenido no fue modificado.
 
 Se usa en: [icd-04-visualizacion.ipynb](../icd-04-visualizacion.ipynb)
+
+
+### winequality-red.csv
+
+1599 instancias, 12 atributos. Cada fila es un vino tinto portugués de la denominación de origen *Vinho Verde*, descrito por once mediciones fisicoquímicas y la calificación que le dieron catadores.
+
+| Columna | Escala de medición | Valores |
+|---|---|---|
+| fixed acidity | Razón (g/dm³ de ácido tartárico) | 4.6 a 15.9 |
+| volatile acidity | Razón (g/dm³ de ácido acético) | 0.12 a 1.58 |
+| citric acid | Razón (g/dm³) | 0 a 1 |
+| residual sugar | Razón (g/dm³) | 0.9 a 15.5 |
+| chlorides | Razón (g/dm³ de cloruro de sodio) | 0.012 a 0.611 |
+| free sulfur dioxide | Razón (mg/dm³) | 1 a 72 |
+| total sulfur dioxide | Razón (mg/dm³) | 6 a 289 |
+| density | Razón (g/cm³) | 0.990 a 1.004 |
+| pH | Intervalo | 2.74 a 4.01 |
+| sulphates | Razón (g/dm³ de sulfato de potasio) | 0.33 a 2 |
+| alcohol | Razón (% vol.) | 8.4 a 14.9 |
+| quality | Ordinal, variable objetivo | 3 a 8 |
+
+`quality` es la mediana de al menos tres evaluaciones de catadores, en una escala de 0 (muy malo) a 10 (excelente). En la práctica solo aparecen valores de 3 a 8, y el 82 % de los vinos tiene 5 o 6.
+
+Hay 240 filas duplicadas exactas. Vienen así de la fuente y no se eliminaron.
+
+Recopilado por Cortez *et al.* (2009) con muestras certificadas entre 2004 y 2007. Se distribuye en el [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/dataset/186/wine+quality), junto con un archivo de 4898 vinos blancos que aquí no se incluye. Licencia CC BY 4.0.
+
+La versión aquí incluida usa coma como separador; el original de UCI usa punto y coma. Los valores no se modificaron.
+
+Cortez, P., Cerdeira, A., Almeida, F., Matos, T., & Reis, J. (2009). Modeling wine preferences by data mining from physicochemical properties. *Decision Support Systems*, 47(4), 547-553.
+
+Se usa en: [icd-10-regresion.ipynb](../icd-10-regresion.ipynb) y en la Tarea 3.
