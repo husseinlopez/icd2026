@@ -127,4 +127,4 @@ La versión aquí incluida usa coma como separador; el original de UCI usa punto
 
 Cortez, P., Cerdeira, A., Almeida, F., Matos, T., & Reis, J. (2009). Modeling wine preferences by data mining from physicochemical properties. *Decision Support Systems*, 47(4), 547-553.
 
-Se usa en: [icd-10-regresion.ipynb](../icd-10-regresion.ipynb) y en la Tarea 3.
+Se usa en: icd-10-regresion.ipynb, icd-11-regresion-logistica.ipynb y en la Tarea 3.
