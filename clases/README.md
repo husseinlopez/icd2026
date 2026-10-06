@@ -14,5 +14,6 @@ Presentaciones de cada sesión, en PDF. El nombre sigue el patrón `icd-NN-tema.
 | 8 | 24 sep | 2.4 Reducción de dimensionalidad | [icd-08-reduccion.pdf](icd-08-reduccion.pdf) |
 | 9 | 29 sep | 2.5 Selección de características | [icd-09-seleccion.pdf](icd-09-seleccion.pdf) |
 | 10 | 1 oct | 3.1 Regresión lineal | [icd-10-regresion.pdf](icd-10-regresion.pdf) |
+| 11 | 6 oct | 3.3 Regresión logística | [icd-11-regresion-logistica.pdf](icd-11-regresion-logistica.pdf) |
 
 Los notebooks que acompañan a algunas sesiones están en la raíz del repositorio.
