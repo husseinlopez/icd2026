@@ -29,6 +29,7 @@ Este repositorio reúne las diapositivas y los notebooks del curso. Se actualiza
 | 9 | Selección de características | [PDF](clases/icd-09-seleccion.pdf) | [icd-09-seleccion.ipynb](icd-09-seleccion.ipynb) |
 | 10 | Regresión lineal | [PDF](clases/icd-10-regresion.pdf) | [icd-10-regresion.ipynb](icd-10-regresion.ipynb) |
 | 11 | Regresión logística | [PDF](clases/icd-11-regresion-logistica.pdf) | [icd-11-regresion-logistica.ipynb](icd-11-regresion-logistica.ipynb) |
+| 12 | Clasificación | [PDF](clases/icd-12-clasificacion.pdf) | [icd-12-clasificacion.ipynb](icd-12-clasificacion.ipynb) |
 
 ## Cómo trabajar con los notebooks
 
