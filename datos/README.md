@@ -128,3 +128,16 @@ La versión aquí incluida usa coma como separador; el original de UCI usa punto
 Cortez, P., Cerdeira, A., Almeida, F., Matos, T., & Reis, J. (2009). Modeling wine preferences by data mining from physicochemical properties. *Decision Support Systems*, 47(4), 547-553.
 
 Se usa en: icd-10-regresion.ipynb, icd-11-regresion-logistica.ipynb y en la Tarea 3.
+
+
+### vinos-3clases.csv · vinos-3clases.arff
+
+1599 instancias, 12 atributos. Son los vinos de `winequality-red.csv` con sus once mediciones sin modificar; solo `quality` se reemplazó por `calidad`:
+
+| Columna | Escala de medición | Valores |
+|---|---|---|
+| calidad | Ordinal, variable objetivo | baja (quality 3 a 5): 744 · media (6): 638 · alta (7 y 8): 217 |
+
+Conserva las filas duplicadas del original. El CSV se usa con pandas y Orange; el ARFF, que declara `calidad` como nominal, con Weka. Derivado de Cortez *et al.* (2009), licencia CC BY 4.0.
+
+Se usa en: [icd-12-clasificacion.ipynb](../icd-12-clasificacion.ipynb) y en las demostraciones de Weka y Orange de la sesión 12.
