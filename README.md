@@ -30,6 +30,7 @@ Este repositorio reúne las diapositivas y los notebooks del curso. Se actualiza
 | 10 | Regresión lineal | [PDF](clases/icd-10-regresion.pdf) | [icd-10-regresion.ipynb](icd-10-regresion.ipynb) |
 | 11 | Regresión logística | [PDF](clases/icd-11-regresion-logistica.pdf) | [icd-11-regresion-logistica.ipynb](icd-11-regresion-logistica.ipynb) |
 | 12 | Clasificación | [PDF](clases/icd-12-clasificacion.pdf) | [icd-12-clasificacion.ipynb](icd-12-clasificacion.ipynb) |
+| 13 | Árboles de decisión | [PDF](clases/icd-13-arboles-decision.pdf) | [icd-13-arboles-decision.ipynb](icd-13-arboles-decision.ipynb) |
 
 ## Cómo trabajar con los notebooks
 
