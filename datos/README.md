@@ -27,7 +27,26 @@ Es la versión numérica del dataset *weather* que Quinlan usó para ilustrar la
 
 Quinlan, J. R. (1986). Induction of decision trees. *Machine Learning*, 1(1), 81-106.
 
-Se usa en: [icd-02-datos.ipynb](../icd-02-datos.ipynb)
+Se usa en: [icd-02-datos.ipynb](../icd-02-datos.ipynb) y [icd-13-arboles-decision.ipynb](../icd-13-arboles-decision.ipynb)
+
+### weather.nominal.csv
+
+14 instancias, 6 atributos. Son los mismos días de `weather.numeric.csv`, con la temperatura y la humedad discretizadas. Es la tabla 3.2 de Mitchell (1997) y la lámina 20 de la sesión 13.
+
+| Columna | Escala de medición | Valores |
+|---|---|---|
+| Day | Identificador | 1 a 14 |
+| Outlook | Nominal | sunny, overcast, rain |
+| Temperature | Ordinal | cool, mild, hot |
+| Humidity | Ordinal | normal, high |
+| Wind | Ordinal | weak, strong |
+| Play | Nominal binaria, variable objetivo | True, False |
+
+Se obtiene de `weather.numeric.csv` con los cortes de la versión original: la temperatura es cool hasta 69 °F, mild de 70 a 76 y hot desde 77; la humedad es high por encima de 82 %. Los nombres siguen los de `weather.numeric.csv`. La versión de Weka usa *rainy*, *windy* (TRUE/FALSE) y *yes*/*no*.
+
+Mitchell, T. M. (1997). *Machine Learning*, capítulo 3. McGraw-Hill.
+
+Se usa en: [icd-13-arboles-decision.ipynb](../icd-13-arboles-decision.ipynb)
 
 
 ### sensores-participantes.csv · sensores-mediciones.csv
