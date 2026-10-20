@@ -31,6 +31,7 @@ Este repositorio reúne las diapositivas y los notebooks del curso. Se actualiza
 | 11 | Regresión logística | [PDF](clases/icd-11-regresion-logistica.pdf) | [icd-11-regresion-logistica.ipynb](icd-11-regresion-logistica.ipynb) |
 | 12 | Clasificación | [PDF](clases/icd-12-clasificacion.pdf) | [icd-12-clasificacion.ipynb](icd-12-clasificacion.ipynb) |
 | 13 | Árboles de decisión | [PDF](clases/icd-13-arboles-decision.pdf) | [icd-13-arboles-decision.ipynb](icd-13-arboles-decision.ipynb) |
+| 14 | Aprendizaje Bayesiano | [PDF](clases/icd-14-aprendizaje-bayesiano.pdf) | [icd-14-aprendizaje-bayesiano.ipynb](icd-14-aprendizaje-bayesiano.ipynb) |
 
 ## Cómo trabajar con los notebooks
 
