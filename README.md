@@ -32,6 +32,7 @@ Este repositorio reúne las diapositivas y los notebooks del curso. Se actualiza
 | 12 | Clasificación | [PDF](clases/icd-12-clasificacion.pdf) | [icd-12-clasificacion.ipynb](icd-12-clasificacion.ipynb) |
 | 13 | Árboles de decisión | [PDF](clases/icd-13-arboles-decision.pdf) | [icd-13-arboles-decision.ipynb](icd-13-arboles-decision.ipynb) |
 | 14 | Aprendizaje Bayesiano | [PDF](clases/icd-14-aprendizaje-bayesiano.pdf) | [icd-14-aprendizaje-bayesiano.ipynb](icd-14-aprendizaje-bayesiano.ipynb) |
+| 15 | Aprendizaje basado en instancias | [PDF](clases/icd-15-aprendizaje-instancias.pdf) | [icd-15-aprendizaje-instancias.ipynb](icd-15-aprendizaje-instancias.ipynb) |
 
 ## Cómo trabajar con los notebooks
 
