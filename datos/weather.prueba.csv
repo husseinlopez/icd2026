@@ -1,0 +1,15 @@
+Day,Outlook,Temperature,Humidity,Wind,Play
+15,sunny,81,88,strong,False
+16,overcast,74,92,weak,True
+17,rain,76,85,weak,True
+18,sunny,78,75,strong,False
+19,sunny,82,92,weak,False
+20,rain,67,90,strong,False
+21,overcast,85,85,strong,True
+22,rain,73,88,weak,True
+23,sunny,88,65,strong,True
+24,overcast,77,70,weak,True
+25,sunny,79,60,weak,True
+26,overcast,80,95,strong,True
+27,rain,66,70,weak,False
+28,overcast,84,78,weak,True
