@@ -27,7 +27,7 @@ Es la versión numérica del dataset *weather* que Quinlan usó para ilustrar la
 
 Quinlan, J. R. (1986). Induction of decision trees. *Machine Learning*, 1(1), 81-106.
 
-Se usa en: [icd-02-datos.ipynb](../icd-02-datos.ipynb) y [icd-13-arboles-decision.ipynb](../icd-13-arboles-decision.ipynb)
+Se usa en: [icd-02-datos.ipynb](../icd-02-datos.ipynb), [icd-13-arboles-decision.ipynb](../icd-13-arboles-decision.ipynb), [icd-14-aprendizaje-bayesiano.ipynb](../icd-14-aprendizaje-bayesiano.ipynb) y [icd-15-aprendizaje-instancias.ipynb](../icd-15-aprendizaje-instancias.ipynb)
 
 ### weather.nominal.csv
 
@@ -46,7 +46,24 @@ Se obtiene de `weather.numeric.csv` con los cortes de la versión original: la t
 
 Mitchell, T. M. (1997). *Machine Learning*, capítulo 3. McGraw-Hill.
 
-Se usa en: [icd-13-arboles-decision.ipynb](../icd-13-arboles-decision.ipynb)
+Se usa en: [icd-13-arboles-decision.ipynb](../icd-13-arboles-decision.ipynb), [icd-14-aprendizaje-bayesiano.ipynb](../icd-14-aprendizaje-bayesiano.ipynb) y [icd-15-aprendizaje-instancias.ipynb](../icd-15-aprendizaje-instancias.ipynb)
+
+### weather.prueba.csv
+
+14 instancias, 6 atributos. Días de prueba para los modelos entrenados con `weather.numeric.csv`, con las mismas columnas.
+
+| Columna | Escala de medición | Valores |
+|---|---|---|
+| Day | Identificador | 15 a 28 |
+| Outlook | Nominal | sunny, overcast, rain |
+| Temperature | Intervalo (°F) | 66 a 88 |
+| Humidity | Razón (%) | 60 a 95 |
+| Wind | Ordinal | weak, strong |
+| Play | Nominal binaria, variable objetivo | True (9), False (5) |
+
+Viene del caso de estudio del curso Aprendizaje Automático Supervisado (Licenciatura en Ciencia de Datos, UABC). Sus etiquetas siguen el árbol J48 de la sesión 13 salvo en los días 18 y 27. En ese curso, los días 3 y 14 del entrenamiento tenían humedad 78 y 80 (la versión «golf» de C4.5); aquí se usan los de `weather.numeric.csv`, 86 y 91.
+
+Se usa en: [icd-15-aprendizaje-instancias.ipynb](../icd-15-aprendizaje-instancias.ipynb)
 
 
 ### sensores-participantes.csv · sensores-mediciones.csv
@@ -146,7 +163,7 @@ La versión aquí incluida usa coma como separador; el original de UCI usa punto
 
 Cortez, P., Cerdeira, A., Almeida, F., Matos, T., & Reis, J. (2009). Modeling wine preferences by data mining from physicochemical properties. *Decision Support Systems*, 47(4), 547-553.
 
-Se usa en: icd-10-regresion.ipynb, icd-11-regresion-logistica.ipynb y en la Tarea 3.
+Se usa en: [icd-10-regresion.ipynb](../icd-10-regresion.ipynb), [icd-11-regresion-logistica.ipynb](../icd-11-regresion-logistica.ipynb) y en la Tarea 3.
 
 
 ### vinos-3clases.csv · vinos-3clases.arff
@@ -159,4 +176,4 @@ Se usa en: icd-10-regresion.ipynb, icd-11-regresion-logistica.ipynb y en la Tare
 
 Conserva las filas duplicadas del original. El CSV se usa con pandas y Orange; el ARFF, que declara `calidad` como nominal, con Weka. Derivado de Cortez *et al.* (2009), licencia CC BY 4.0.
 
-Se usa en: [icd-12-clasificacion.ipynb](../icd-12-clasificacion.ipynb) y en las demostraciones de Weka y Orange de la sesión 12.
+Se usa en: [icd-12-clasificacion.ipynb](../icd-12-clasificacion.ipynb), [icd-13-arboles-decision.ipynb](../icd-13-arboles-decision.ipynb), [icd-14-aprendizaje-bayesiano.ipynb](../icd-14-aprendizaje-bayesiano.ipynb), [icd-15-aprendizaje-instancias.ipynb](../icd-15-aprendizaje-instancias.ipynb) y en las demostraciones de Weka y Orange de la sesión 12.
