@@ -15,5 +15,9 @@ Presentaciones de cada sesión, en PDF. El nombre sigue el patrón `icd-NN-tema.
 | 9 | 29 sep | 2.5 Selección de características | [icd-09-seleccion.pdf](icd-09-seleccion.pdf) |
 | 10 | 1 oct | 3.1 Regresión lineal | [icd-10-regresion.pdf](icd-10-regresion.pdf) |
 | 11 | 6 oct | 3.3 Regresión logística | [icd-11-regresion-logistica.pdf](icd-11-regresion-logistica.pdf) |
+| 12 | 8 oct | 4.1 Clasificación | [icd-12-clasificacion.pdf](icd-12-clasificacion.pdf) |
+| 13 | 15 oct | 4.2 Árboles de decisión | [icd-13-arboles-decision.pdf](icd-13-arboles-decision.pdf) |
+| 14 | 20 oct | 4.3 Aprendizaje bayesiano | [icd-14-aprendizaje-bayesiano.pdf](icd-14-aprendizaje-bayesiano.pdf) |
+| 15 | 22 oct | 4.4 Aprendizaje basado en instancias | [icd-15-aprendizaje-instancias.pdf](icd-15-aprendizaje-instancias.pdf) |
 
 Los notebooks que acompañan a algunas sesiones están en la raíz del repositorio.
