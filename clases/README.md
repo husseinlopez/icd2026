@@ -19,5 +19,6 @@ Presentaciones de cada sesión, en PDF. El nombre sigue el patrón `icd-NN-tema.
 | 13 | 15 oct | 4.2 Árboles de decisión | [icd-13-arboles-decision.pdf](icd-13-arboles-decision.pdf) |
 | 14 | 20 oct | 4.3 Aprendizaje bayesiano | [icd-14-aprendizaje-bayesiano.pdf](icd-14-aprendizaje-bayesiano.pdf) |
 | 15 | 22 oct | 4.4 Aprendizaje basado en instancias | [icd-15-aprendizaje-instancias.pdf](icd-15-aprendizaje-instancias.pdf) |
+| 16 | 27 oct | 4.5 Máquinas de soporte vectorial | [icd-16-maquinas-soporte-vectorial.pdf](icd-16-maquinas-soporte-vectorial.pdf) |
 
 Los notebooks que acompañan a algunas sesiones están en la raíz del repositorio.
