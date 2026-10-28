@@ -27,11 +27,11 @@ Es la versión numérica del dataset *weather* que Quinlan usó para ilustrar la
 
 Quinlan, J. R. (1986). Induction of decision trees. *Machine Learning*, 1(1), 81-106.
 
-Se usa en: [icd-02-datos.ipynb](../icd-02-datos.ipynb), [icd-13-arboles-decision.ipynb](../icd-13-arboles-decision.ipynb), [icd-14-aprendizaje-bayesiano.ipynb](../icd-14-aprendizaje-bayesiano.ipynb) y [icd-15-aprendizaje-instancias.ipynb](../icd-15-aprendizaje-instancias.ipynb)
+Se usa en: [icd-02-datos.ipynb](../icd-02-datos.ipynb), [icd-13-arboles-decision.ipynb](../icd-13-arboles-decision.ipynb), [icd-14-aprendizaje-bayesiano.ipynb](../icd-14-aprendizaje-bayesiano.ipynb), [icd-15-aprendizaje-instancias.ipynb](../icd-15-aprendizaje-instancias.ipynb) y [icd-16-maquinas-soporte-vectorial.ipynb](../icd-16-maquinas-soporte-vectorial.ipynb)
 
 ### weather.nominal.csv
 
-14 instancias, 6 atributos. Son los mismos días de `weather.numeric.csv`, con la temperatura y la humedad discretizadas. Es la tabla 3.2 de Mitchell (1997) y la lámina 20 de la sesión 13.
+14 instancias, 6 atributos. Son los mismos días de `weather.numeric.csv`, con la temperatura y la humedad discretizadas. Es la tabla 3.2 de Mitchell (1997) y la diapositiva 20 de la sesión 13.
 
 | Columna | Escala de medición | Valores |
 |---|---|---|
@@ -46,7 +46,7 @@ Se obtiene de `weather.numeric.csv` con los cortes de la versión original: la t
 
 Mitchell, T. M. (1997). *Machine Learning*, capítulo 3. McGraw-Hill.
 
-Se usa en: [icd-13-arboles-decision.ipynb](../icd-13-arboles-decision.ipynb), [icd-14-aprendizaje-bayesiano.ipynb](../icd-14-aprendizaje-bayesiano.ipynb) y [icd-15-aprendizaje-instancias.ipynb](../icd-15-aprendizaje-instancias.ipynb)
+Se usa en: [icd-13-arboles-decision.ipynb](../icd-13-arboles-decision.ipynb), [icd-14-aprendizaje-bayesiano.ipynb](../icd-14-aprendizaje-bayesiano.ipynb), [icd-15-aprendizaje-instancias.ipynb](../icd-15-aprendizaje-instancias.ipynb) y [icd-16-maquinas-soporte-vectorial.ipynb](../icd-16-maquinas-soporte-vectorial.ipynb)
 
 ### weather.prueba.csv
 
@@ -63,7 +63,7 @@ Se usa en: [icd-13-arboles-decision.ipynb](../icd-13-arboles-decision.ipynb), [i
 
 Viene del caso de estudio del curso Aprendizaje Automático Supervisado (Licenciatura en Ciencia de Datos, UABC). Sus etiquetas siguen el árbol J48 de la sesión 13 salvo en los días 18 y 27. En ese curso, los días 3 y 14 del entrenamiento tenían humedad 78 y 80 (la versión «golf» de C4.5); aquí se usan los de `weather.numeric.csv`, 86 y 91.
 
-Se usa en: [icd-15-aprendizaje-instancias.ipynb](../icd-15-aprendizaje-instancias.ipynb)
+Se usa en: [icd-15-aprendizaje-instancias.ipynb](../icd-15-aprendizaje-instancias.ipynb) y [icd-16-maquinas-soporte-vectorial.ipynb](../icd-16-maquinas-soporte-vectorial.ipynb)
 
 
 ### sensores-participantes.csv · sensores-mediciones.csv
@@ -176,4 +176,46 @@ Se usa en: [icd-10-regresion.ipynb](../icd-10-regresion.ipynb), [icd-11-regresio
 
 Conserva las filas duplicadas del original. El CSV se usa con pandas y Orange; el ARFF, que declara `calidad` como nominal, con Weka. Derivado de Cortez *et al.* (2009), licencia CC BY 4.0.
 
-Se usa en: [icd-12-clasificacion.ipynb](../icd-12-clasificacion.ipynb), [icd-13-arboles-decision.ipynb](../icd-13-arboles-decision.ipynb), [icd-14-aprendizaje-bayesiano.ipynb](../icd-14-aprendizaje-bayesiano.ipynb), [icd-15-aprendizaje-instancias.ipynb](../icd-15-aprendizaje-instancias.ipynb) y en las demostraciones de Weka y Orange de la sesión 12.
+Se usa en: [icd-12-clasificacion.ipynb](../icd-12-clasificacion.ipynb), [icd-13-arboles-decision.ipynb](../icd-13-arboles-decision.ipynb), [icd-14-aprendizaje-bayesiano.ipynb](../icd-14-aprendizaje-bayesiano.ipynb), [icd-15-aprendizaje-instancias.ipynb](../icd-15-aprendizaje-instancias.ipynb), [icd-16-maquinas-soporte-vectorial.ipynb](../icd-16-maquinas-soporte-vectorial.ipynb) y en las demostraciones de Weka y Orange de la sesión 12.
+
+
+### desercion-entrenamiento.csv · desercion-prueba.csv
+
+4424 estudiantes de licenciatura del Instituto Politécnico de Portalegre, en Portugal, que ingresaron entre los ciclos 2008/09 y 2018/19. Cada fila es un estudiante, descrito con lo que se sabía al inscribirse y con su desempeño en el primer y el segundo semestres. La variable objetivo es su situación al final de la duración normal de la carrera: tres años, cuatro en Enfermería.
+
+Los estudiantes se reparten en dos archivos, con una partición estratificada por `Target`:
+
+- **`desercion-entrenamiento.csv`**: 3539 estudiantes, 38 columnas: `id`, los 36 atributos y `Target`.
+- **`desercion-prueba.csv`**: 885 estudiantes, 31 columnas: `id` y los 30 atributos que se conocen al cierre del primer semestre. No trae `Target` ni los seis atributos del segundo semestre. Las etiquetas las conservan los profesores.
+
+| Columna | Escala de medición | Valores |
+|---|---|---|
+| id | Identificador | 1 a 4424, asignado al azar |
+| Marital status | Nominal, código entero | 6 niveles |
+| Application mode | Nominal, código entero | 18 niveles |
+| Application order | Ordinal | 0 (primera opción) a 9 |
+| Course | Nominal, código entero | 17 carreras, con códigos de 33 a 9991 |
+| Daytime/evening attendance | Nominal binaria | 1 diurno, 0 vespertino |
+| Previous qualification | Nominal, código entero | 17 niveles |
+| Previous qualification (grade) | Intervalo (0 a 200) | 95 a 190 |
+| Nacionality | Nominal, código entero | 21 niveles; el nombre viene así en la fuente |
+| Mother's qualification · Father's qualification | Nominal, código entero | 29 y 34 niveles |
+| Mother's occupation · Father's occupation | Nominal, código entero | 32 y 46 niveles |
+| Admission grade | Intervalo (0 a 200) | 95 a 190 |
+| Displaced · Educational special needs · Debtor · Tuition fees up to date · Scholarship holder · International | Nominal binaria | 1 sí, 0 no |
+| Gender | Nominal binaria | 1 hombre, 0 mujer |
+| Age at enrollment | Razón (años) | 17 a 70 |
+| Curricular units 1st sem (credited, enrolled, evaluations, approved, without evaluations) | Razón (conteo de unidades) | 0 a 45 |
+| Curricular units 1st sem (grade) | Intervalo (0 a 20) | Promedio del semestre; 0 si no aprobó ninguna unidad (718 estudiantes) |
+| Curricular units 2nd sem (las mismas seis) | Las mismas que en el primer semestre | Solo en el archivo de entrenamiento |
+| Unemployment rate | Razón (%) | 7.6 a 16.2 |
+| Inflation rate · GDP | Intervalo (%) | −0.8 a 3.7 y −4.06 a 3.51; entre los tres indicadores solo hay diez combinaciones de valores |
+| Target | Nominal, variable objetivo | Graduate 1767 · Dropout 1137 · Enrolled 635, en el entrenamiento |
+
+El significado de cada código de los atributos nominales está en la [ficha del dataset en UCI](https://archive.ics.uci.edu/dataset/697). *Dropout* incluye los cambios de carrera o de institución, sin importar cuándo ocurrieron. No hay valores faltantes ni filas duplicadas.
+
+Recopilado por Realinho *et al.* (2022) y distribuido en el [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/dataset/697), licencia CC BY 4.0. La versión aquí incluida usa coma como separador (el original usa punto y coma), agrega el identificador `id` y quita los espacios sobrantes de los nombres de columna. Los valores no se modificaron.
+
+Realinho, V., Machado, J., Baptista, L., & Martins, M. V. (2022). Predicting student dropout and academic success. *Data*, 7(11), 146. https://doi.org/10.3390/data7110146
+
+Se usa en: la Práctica 4.
