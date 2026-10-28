@@ -218,4 +218,4 @@ Recopilado por Realinho *et al.* (2022) y distribuido en el [UC Irvine Machine L
 
 Realinho, V., Machado, J., Baptista, L., & Martins, M. V. (2022). Predicting student dropout and academic success. *Data*, 7(11), 146. https://doi.org/10.3390/data7110146
 
-Se usa en: la Práctica 4.
+Se usa en: la Práctica 3.
