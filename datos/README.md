@@ -46,7 +46,7 @@ Se obtiene de `weather.numeric.csv` con los cortes de la versión original: la t
 
 Mitchell, T. M. (1997). *Machine Learning*, capítulo 3. McGraw-Hill.
 
-Se usa en: [icd-13-arboles-decision.ipynb](../icd-13-arboles-decision.ipynb), [icd-14-aprendizaje-bayesiano.ipynb](../icd-14-aprendizaje-bayesiano.ipynb), [icd-15-aprendizaje-instancias.ipynb](../icd-15-aprendizaje-instancias.ipynb) y [icd-16-maquinas-soporte-vectorial.ipynb](../icd-16-maquinas-soporte-vectorial.ipynb)
+Se usa en: [icd-13-arboles-decision.ipynb](../icd-13-arboles-decision.ipynb), [icd-14-aprendizaje-bayesiano.ipynb](../icd-14-aprendizaje-bayesiano.ipynb), [icd-15-aprendizaje-instancias.ipynb](../icd-15-aprendizaje-instancias.ipynb), [icd-16-maquinas-soporte-vectorial.ipynb](../icd-16-maquinas-soporte-vectorial.ipynb) y [icd-17-ensambles-bagging.ipynb](../icd-17-ensambles-bagging.ipynb)
 
 ### weather.prueba.csv
 
@@ -63,7 +63,7 @@ Se usa en: [icd-13-arboles-decision.ipynb](../icd-13-arboles-decision.ipynb), [i
 
 Viene del caso de estudio del curso Aprendizaje Automático Supervisado (Licenciatura en Ciencia de Datos, UABC). Sus etiquetas siguen el árbol J48 de la sesión 13 salvo en los días 18 y 27. En ese curso, los días 3 y 14 del entrenamiento tenían humedad 78 y 80 (la versión «golf» de C4.5); aquí se usan los de `weather.numeric.csv`, 86 y 91.
 
-Se usa en: [icd-15-aprendizaje-instancias.ipynb](../icd-15-aprendizaje-instancias.ipynb) y [icd-16-maquinas-soporte-vectorial.ipynb](../icd-16-maquinas-soporte-vectorial.ipynb)
+Se usa en: [icd-15-aprendizaje-instancias.ipynb](../icd-15-aprendizaje-instancias.ipynb), [icd-16-maquinas-soporte-vectorial.ipynb](../icd-16-maquinas-soporte-vectorial.ipynb) y [icd-17-ensambles-bagging.ipynb](../icd-17-ensambles-bagging.ipynb)
 
 
 ### sensores-participantes.csv · sensores-mediciones.csv
@@ -176,7 +176,7 @@ Se usa en: [icd-10-regresion.ipynb](../icd-10-regresion.ipynb), [icd-11-regresio
 
 Conserva las filas duplicadas del original. El CSV se usa con pandas y Orange; el ARFF, que declara `calidad` como nominal, con Weka. Derivado de Cortez *et al.* (2009), licencia CC BY 4.0.
 
-Se usa en: [icd-12-clasificacion.ipynb](../icd-12-clasificacion.ipynb), [icd-13-arboles-decision.ipynb](../icd-13-arboles-decision.ipynb), [icd-14-aprendizaje-bayesiano.ipynb](../icd-14-aprendizaje-bayesiano.ipynb), [icd-15-aprendizaje-instancias.ipynb](../icd-15-aprendizaje-instancias.ipynb), [icd-16-maquinas-soporte-vectorial.ipynb](../icd-16-maquinas-soporte-vectorial.ipynb) y en las demostraciones de Weka y Orange de la sesión 12.
+Se usa en: [icd-12-clasificacion.ipynb](../icd-12-clasificacion.ipynb), [icd-13-arboles-decision.ipynb](../icd-13-arboles-decision.ipynb), [icd-14-aprendizaje-bayesiano.ipynb](../icd-14-aprendizaje-bayesiano.ipynb), [icd-15-aprendizaje-instancias.ipynb](../icd-15-aprendizaje-instancias.ipynb), [icd-16-maquinas-soporte-vectorial.ipynb](../icd-16-maquinas-soporte-vectorial.ipynb), [icd-17-ensambles-bagging.ipynb](../icd-17-ensambles-bagging.ipynb) y en las demostraciones de Weka y Orange de la sesión 12.
 
 
 ### desercion-entrenamiento.csv · desercion-prueba.csv
