@@ -36,6 +36,7 @@ Este repositorio reúne las diapositivas y los notebooks del curso. Se actualiza
 | 16 | Máquinas de soporte vectorial | [PDF](clases/icd-16-maquinas-soporte-vectorial.pdf) | [icd-16-maquinas-soporte-vectorial.ipynb](icd-16-maquinas-soporte-vectorial.ipynb) |
 | 17 | Ensambles y bagging | [PDF](clases/icd-17-ensambles-bagging.pdf) | [icd-17-ensambles-bagging.ipynb](icd-17-ensambles-bagging.ipynb) |
 | 18 | Boosting | [PDF](clases/icd-18-boosting.pdf) | [icd-18-boosting.ipynb](icd-18-boosting.ipynb) |
+| 19 | Aprendizaje no supervisado | [PDF](clases/icd-19-aprendizaje-no-supervisado.pdf) | [icd-19-aprendizaje-no-supervisado.ipynb](icd-19-aprendizaje-no-supervisado.ipynb) |
 
 ## Cómo trabajar con los notebooks
 
