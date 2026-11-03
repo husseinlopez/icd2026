@@ -22,5 +22,6 @@ Presentaciones de cada sesión, en PDF. El nombre sigue el patrón `icd-NN-tema.
 | 16 | 27 oct | 4.5 Máquinas de soporte vectorial | [icd-16-maquinas-soporte-vectorial.pdf](icd-16-maquinas-soporte-vectorial.pdf) |
 | 17 | 29 oct | 5.1 Ensambles · 5.2 Bagging | [icd-17-ensambles-bagging.pdf](icd-17-ensambles-bagging.pdf) |
 | 18 | 30 oct | 5.3 Boosting | [icd-18-boosting.pdf](icd-18-boosting.pdf) |
+| 19 | 3 nov | 6.1 Aprendizaje no supervisado | [icd-19-aprendizaje-no-supervisado.pdf](icd-19-aprendizaje-no-supervisado.pdf) |
 
 Los notebooks que acompañan a algunas sesiones están en la raíz del repositorio.
