@@ -38,6 +38,7 @@ Este repositorio reúne las diapositivas y los notebooks del curso. Se actualiza
 | 18 | Boosting | [PDF](clases/icd-18-boosting.pdf) | [icd-18-boosting.ipynb](icd-18-boosting.ipynb) |
 | 19 | Aprendizaje no supervisado | [PDF](clases/icd-19-aprendizaje-no-supervisado.pdf) | [icd-19-aprendizaje-no-supervisado.ipynb](icd-19-aprendizaje-no-supervisado.ipynb) |
 | 20 | Perceptrón y MLP | [PDF](clases/icd-20-perceptron-mlp.pdf) | [icd-20-perceptron-mlp.ipynb](icd-20-perceptron-mlp.ipynb) |
+| 21 | Redes neuronales convolucionales | [PDF](clases/icd-21-cnn.pdf) | [icd-21-cnn.ipynb](icd-21-cnn.ipynb) |
 
 ## Cómo trabajar con los notebooks
 
