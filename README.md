@@ -39,6 +39,7 @@ Este repositorio reúne las diapositivas y los notebooks del curso. Se actualiza
 | 19 | Aprendizaje no supervisado | [PDF](clases/icd-19-aprendizaje-no-supervisado.pdf) | [icd-19-aprendizaje-no-supervisado.ipynb](icd-19-aprendizaje-no-supervisado.ipynb) |
 | 20 | Perceptrón y MLP | [PDF](clases/icd-20-perceptron-mlp.pdf) | [icd-20-perceptron-mlp.ipynb](icd-20-perceptron-mlp.ipynb) |
 | 21 | Redes neuronales convolucionales | [PDF](clases/icd-21-cnn.pdf) | [icd-21-cnn.ipynb](icd-21-cnn.ipynb) |
+| 22 | Redes neuronales recurrentes | [PDF](clases/icd-22-rnn.pdf) | [icd-22-rnn.ipynb](icd-22-rnn.ipynb) |
 
 ## Cómo trabajar con los notebooks
 
