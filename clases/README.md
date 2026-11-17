@@ -25,5 +25,6 @@ Presentaciones de cada sesión, en PDF. El nombre sigue el patrón `icd-NN-tema.
 | 19 | 3 nov | 6.1 Aprendizaje no supervisado | [icd-19-aprendizaje-no-supervisado.pdf](icd-19-aprendizaje-no-supervisado.pdf) |
 | 20 | 10 nov | 7.1 Perceptrón y MLP | [icd-20-perceptron-MLP.pdf](icd-20-perceptron-mlp.pdf) |
 | 21 | 12 nov | 7.2 Redes neuronales convolucionales | [icd-21-cnn.pdf](icd-21-cnn.pdf) |
+| 22 | 17 nov | 7.3 Redes neuronales recurrentes | [icd-22-rnn.pdf](icd-22-rnn.pdf) |
 
 Los notebooks que acompañan a algunas sesiones están en la raíz del repositorio.
