@@ -27,5 +27,6 @@ Presentaciones de cada sesión, en PDF. El nombre sigue el patrón `icd-NN-tema.
 | 21 | 12 nov | 7.2 Redes neuronales convolucionales | [icd-21-cnn.pdf](icd-21-cnn.pdf) |
 | 22 | 17 nov | 7.3 Redes neuronales recurrentes | [icd-22-rnn.pdf](icd-22-rnn.pdf) |
 | 23 | 19 nov | 7.4 Autoencoders | [icd-23-ae.pdf](icd-23-ae.pdf) |
+| 24 | 24 nov | 7.5 Transformers | [icd-24-transformers.pdf](icd-24-transformers.pdf) |
 
 Los notebooks que acompañan a algunas sesiones están en la raíz del repositorio.
