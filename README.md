@@ -41,6 +41,7 @@ Este repositorio reúne las diapositivas y los notebooks del curso. Se actualiza
 | 21 | Redes neuronales convolucionales | [PDF](clases/icd-21-cnn.pdf) | [icd-21-cnn.ipynb](icd-21-cnn.ipynb) |
 | 22 | Redes neuronales recurrentes | [PDF](clases/icd-22-rnn.pdf) | [icd-22-rnn.ipynb](icd-22-rnn.ipynb) |
 | 23 | Autoencoders | [PDF](clases/icd-23-ae.pdf) | [icd-23-ae.ipynb](icd-23-ae.ipynb) |
+| 24 | Transformers | [PDF](clases/icd-24-transformers.pdf) | [icd-24-transformers.ipynb](icd-24-transformers.ipynb) |
 
 ## Cómo trabajar con los notebooks
 
